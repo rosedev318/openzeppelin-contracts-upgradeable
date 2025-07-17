@@ -1,6 +1,7 @@
 const { ethers } = require('hardhat');
 const { expect } = require('chai');
 
+
 module.exports = function shouldBehaveLikeClone() {
   const assertProxyInitialization = function ({ value, balance }) {
     it('initializes the proxy', async function () {
